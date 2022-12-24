@@ -1,140 +1,194 @@
 <!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <title>Megan Wei</title>
-  
+
   <meta name="author" content="Megan Wei">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0RRWGJ38RH"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-0RRWGJ38RH');
   </script>
 
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="icon" type="image/jpeg" href="imgs/megan.jpeg">
-	<!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"> -->
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Megan Wei</name>
-              </p>
-              <p>I'm a Masters of Engineering student at MIT, advised by Professor Joshua Tenenbaum in the <a href="https://cocosci.mit.edu/">Computational Cognitive Science Group</a>. Currently, I'm working on building compositional diffusion models to generate scenes with complex object relations and properties.
-              </p>
-              <p>
-                I completed my Bachelor of Science in Computer Science with a minor in Business Analytics at MIT. During my undergrad, I worked with <a href="https://groups.csail.mit.edu/vision/torralbalab/">Professor Antonio Torralba</a> on building <a href="http://virtual-home.org/">VirtualHome</a> and 
-                <a href="https://cocosci.mit.edu/">Professor Joshua Tenenbaum</a> on comparing large language models to humans on several reasoning tasks.
-              </p>
-              <p>
-                My main research goal is to bridge the gap between human and machine multi-modal reasoning and perception.
-              </p>
-              <p style="text-align:center">
-                <a href="mailto:meganwei@mit.edu">Email</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/megan-wei/">LinkedIn</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=6I6V2sQAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://twitter.com/MeganJWei">Twitter</a> &nbsp/&nbsp
-                <a href="https://github.com/weimegan">GitHub</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="imgs/megan.jpeg"><img style="width:100%;max-width:100%" alt="profile photo" src="imgs/megan.jpeg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="imgs/sfr.png" alt="gpt" width="160" height="100">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://arxiv.org/abs/2205.05718">
-                <papertitle>Structured, flexible, and robust: benchmarking and improving large language models towards more human-like behavior in out-of-distribution reasoning tasks</papertitle>
-              </a>
-              <br>
-              <a href="https://collinskatie.github.io/">Katherine M. Collins</a>*, <a href="https://web.mit.edu/zyzzyva/www/academic.html">Catherine Wong</a>*, <a href="https://jiahai-feng.github.io/about/">Jiahai Feng</a>, <strong>Megan Wei</strong>, <a href="http://web.mit.edu/cocosci/josh.html">Joshua B. Tenenbaum</a>
-              <br>
-              <em>CogSci</em>, 2022
-              <br>
-              <a href="https://arxiv.org/abs/2205.05718">Paper</a> &nbsp/&nbsp
-              <a href="https://sites.google.com/view/structured-flexible-and-robust/home">Website</a> &nbsp/&nbsp
-              <a href="https://github.com/collinskatie/structured_flexible_and_robust">Code</a>
-              <p></p>
-              <p>
-                We introduce a challenge benchmark for comparing humans and large language models on increasingly constrained planning and explanation tasks, and a new hybrid Parse-and-Solve model that translates language into formal goal programs to improve planning robustness.
-              </p>
-            </td>
-          </tr>
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <!-- <a href="misc.html">Miscellaneous</a> -->
+  </div>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p style="text-align:center">
+                    <name>Megan Wei</name>
+                  </p>
+                  <p>I'm a Masters of Engineering student at MIT, advised by Professor Joshua Tenenbaum in the <a
+                      href="https://cocosci.mit.edu/">Computational Cognitive Science Group</a>. Currently, I'm working
+                    on building compositional diffusion models to generate scenes with complex object relations and
+                    properties.
+                  </p>
+                  <p>
+                    I completed my Bachelor of Science in Computer Science with a minor in Business Analytics at MIT.
+                    During my undergrad, I worked with <a
+                      href="https://groups.csail.mit.edu/vision/torralbalab/">Professor Antonio Torralba</a> on building
+                    <a href="http://virtual-home.org/">VirtualHome</a> and
+                    <a href="https://cocosci.mit.edu/">Professor Joshua Tenenbaum</a> on comparing large language models
+                    to humans on several reasoning tasks.
+                  </p>
+                  <p>
+                    My main research goal is to bridge the gap between human and machine multi-modal reasoning and
+                    perception.
+                  </p>
+                  <p style="text-align:center">
+                    <a href="mailto:meganwei@mit.edu" class="icon">
+                      <i class="fa fa-envelope"></i>
+                    </a> &nbsp
+                    <a href="https://www.linkedin.com/in/megan-wei/" class="icon">
+                      <i class="fa fa-linkedin"></i>
+                    </a> &nbsp
+                    <a href="https://github.com/weimegan" class="icon">
+                      <i class="fa fa-github"></i>
+                    </a> &nbsp
+                    <a href="https://scholar.google.com/citations?user=6I6V2sQAAAAJ&hl=en" class="icon">
+                      <i class="ai ai-google-scholar"></i>
+                    </a> &nbsp
+                    <a href="https://twitter.com/MeganJWei" class="icon">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </p>
+                </td>
+                <td style="padding:2.5%;width:40%;max-width:40%">
+                  <a href="imgs/megan.jpeg"><img style="width:100%;max-width:100%" alt="profile photo"
+                      src="imgs/megan.jpeg" class="hoverZoomLink"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Research</heading>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="imgs/sfr.png" alt="gpt" width="160" height="100">
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://arxiv.org/abs/2205.05718">
+                    <papertitle>Structured, flexible, and robust: benchmarking and improving large language models
+                      towards more human-like behavior in out-of-distribution reasoning tasks</papertitle>
+                  </a>
+                  <br>
+                  <a href="https://collinskatie.github.io/">Katherine M. Collins</a>*, <a
+                    href="https://web.mit.edu/zyzzyva/www/academic.html">Catherine Wong</a>*, <a
+                    href="https://jiahai-feng.github.io/about/">Jiahai Feng</a>, <strong>Megan Wei</strong>, <a
+                    href="http://web.mit.edu/cocosci/josh.html">Joshua B. Tenenbaum</a>
+                  <br>
+                  <em>CogSci</em>, 2022
+                  <br>
+                  <a href="https://arxiv.org/abs/2205.05718">Paper</a> &nbsp/&nbsp
+                  <a href="https://sites.google.com/view/structured-flexible-and-robust/home">Website</a> &nbsp/&nbsp
+                  <a href="https://github.com/collinskatie/structured_flexible_and_robust">Code</a>
+                  <p></p>
+                  <p>
+                    We introduce a challenge benchmark for comparing humans and large language models on increasingly
+                    constrained planning and explanation tasks, and a new hybrid Parse-and-Solve model that translates
+                    language into formal goal programs to improve planning robustness.
+                  </p>
+                </td>
+              </tr>
 
 
-        </tbody></table>
+            </tbody>
+          </table>
 
-				
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Misc</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-					
 
-          <tr>
-            <td align="center" style="padding:20px;width:25%;vertical-align:middle">
-							<img src="imgs/wai.jpeg" alt="wai" width="160" height="160">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://mitharvardwai.github.io/">
-                <papertitle>MITxHarvard Women in AI</papertitle>
-              </a>
-              <br>
-              <a href="https://www.youtube.com/@mitxharvardwomeninai6462">YouTube</a> &nbsp/&nbsp
-              <a href="https://mobile.twitter.com/mitxharvard_wai">Twitter</a> &nbsp/&nbsp
-              <a href="https://www.linkedin.com/company/mitxharvard-women-in-ai/">LinkedIn</a>
-              <br>
-              Co-President and Founding Team
-              <br>
-              Started and grew a group of now 600 MIT and Harvard undergrads to postdocs. Spearheaded new initiatives: interview series, paper reading sessions, mentorship, elementary to high school outreach, marketing, corporate sponsorships, and professional development.
-            </td>
-          </tr>
-					
-					
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:right;font-size:small;">
-                Website template credits: <a href="https://github.com/jonbarron/jonbarron_website">John Barron</a>
-                
-                <br>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td>
+                  <heading>Initiatives</heading>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" align="center" border="0" cellpadding="20">
+            <tbody>
 
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
+
+              <tr>
+                <td align="center" style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="imgs/wai.jpeg" alt="wai" width="160" height="160">
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://mitharvardwai.github.io/">
+                    <papertitle>MITxHarvard Women in AI</papertitle>
+                  </a>
+                  <br>
+                  <a href="https://www.youtube.com/@mitxharvardwomeninai6462">YouTube</a> &nbsp/&nbsp
+                  <a href="https://mobile.twitter.com/mitxharvard_wai">Twitter</a> &nbsp/&nbsp
+                  <a href="https://www.linkedin.com/company/mitxharvard-women-in-ai/">LinkedIn</a>
+                  <br>
+                  Co-President and Founding Team
+                  <br>
+                  Started and grew a group of now 600 MIT and Harvard undergrads to postdocs. Spearheaded new
+                  initiatives: interview series, paper reading sessions, mentorship, elementary to high school outreach,
+                  marketing, corporate sponsorships, and professional development.
+                </td>
+              </tr>
+
+
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:small;">
+                    Website template credits: <a href="https://github.com/jonbarron/jonbarron_website">John Barron</a>
+
+                    <br>
+
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
   </table>
 </body>
 
